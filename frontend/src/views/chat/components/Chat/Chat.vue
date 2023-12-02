@@ -75,7 +75,7 @@ onMounted(async () => {
 
 const hackDevMode = () => {
   if (import.meta.env.DEV) {
-    CIB.manager.chat.api.bing._endpoint = location.origin;
+    CIB.manager.chat.api.bing._endpoint = 'https://bing.scholarcn.com';
   }
 };
 
@@ -96,13 +96,13 @@ const initChatService = () => {
     chatStore.checkAllSydneyConfig();
   }
   CIB.config.captcha.baseUrl = 'https://www.bing.com'
-  CIB.config.bing.baseUrl = location.origin;
-  CIB.config.bing.signIn.baseUrl = location.origin;
-  CIB.config.answers.baseUrl = location.origin;
-  CIB.config.answers.secondTurnScreenshotBaseUrl = location.origin;
-  CIB.config.contentCreator.baseUrl = location.origin;
-  CIB.config.visualSearch.baseUrl = location.origin;
-  CIB.config.suggestionsv2.baseUrl = location.origin;
+  CIB.config.bing.baseUrl = 'https://bing.scholarcn.com';
+  CIB.config.bing.signIn.baseUrl = 'https://bing.scholarcn.com';
+  CIB.config.answers.baseUrl = 'https://bing.scholarcn.com';
+  CIB.config.answers.secondTurnScreenshotBaseUrl = 'https://bing.scholarcn.com';
+  CIB.config.contentCreator.baseUrl = 'https://bing.scholarcn.com';
+  CIB.config.visualSearch.baseUrl = 'https://bing.scholarcn.com';
+  CIB.config.suggestionsv2.baseUrl = 'https://bing.scholarcn.com';
 };
 
 const initSysConfig = async () => {
