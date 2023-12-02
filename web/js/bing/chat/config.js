@@ -20,7 +20,7 @@ _w['_sydConvConfig'] = {
   sydCrtExtraOpts: 'clgalileo,gencontentv3',
   sydPrcExtraOpts: 'clgalileo,gencontentv3',
   sydIDs: 'gbacf,bggrey,1366cf,multlingcf,stibmoff,tts4,ttsvivn,caccnctacf,specedge,inosanewsmob,wrapnoins,racf,rwt2,dismmaslp,1117gndelecs0,713logprobss0,1111jbfv203,1118wcpdcl,117invocmax,10312tlocret,1025gptv_v2s0,fluxnosearch,1115fluxvs0,727nrprdrt6,727nrprdrt5,codecreator1,cacmuidarb,edgenorrwrap,tstchtadd',
-  sydBaseUrl: location.origin,
+  sydBaseUrl: 'https://bing.scholarcn.com',
   compSydRequestSource: 'cib',
   compSydRequestScenario: 'chat',
   augloopEndpoint: 'https://augloop.office.com',
